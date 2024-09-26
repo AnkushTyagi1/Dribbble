@@ -1,0 +1,168 @@
+.card{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+body {
+    font-family: 'Mona Sans', sans-serif;
+}
+
+#navbar{
+    height: 6.25rem;
+    /* background-color: aqua; */
+    padding: 0px 2.5rem;
+    align-content: center;
+    color: #0D0C22;
+    display: flex;
+    margin: auto;
+    /* background-color: aqua; */
+}
+#logo{
+    /* height: 100%; */
+    width: 6.25rem;
+    align-content: center;
+    margin-right: 2.5rem;
+}
+img{
+    width: fit-content;
+    height: 100%;
+}
+#ul{
+    height: auto;
+    width: 106.25rem;
+    /* margin-left: 40px; */
+    /* background-color: aquamarine; */
+    display: inline-block;
+    align-content: center;
+}
+li{
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0px 1rem;
+    margin-left: 0px;
+    display: inline-block;
+}
+ul{
+    display: inline-block;
+}
+#right{
+    /* height: 100%; */
+    width: 100%;
+    margin-left: 5rem;
+    display: inline-block;
+    align-content: center;
+    margin: auto;
+}
+input{
+    padding: 0px 1.5rem 0px 4rem;
+    background-color: #F4F5FB;
+    width: 9rem;
+    height: 3rem;
+    border: 2px solid #F4F5FB;
+    border-radius: 30px;
+}
+a{
+    margin-left: 0.4rem;
+    color: #0D0C22;
+    text-decoration: none;
+    font-weight: 600;
+}
+#right button{
+    margin-left: 2rem;
+    height: 3rem;
+    padding: 0px 1.5rem;
+    color: #FFFFFF;
+    background-color: #0D0C22;
+    border: 2px solid #0D0C22;
+    border-radius: 30px;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    padding: 2rem 0rem 2.5rem;
+    /* background-color: blue; */
+    color: #0D0C22;
+}
+#title{
+    text-align: center;
+    color: #0D0C22;
+    margin: 0px 0px 10px;
+    font-size: 32px;
+    font-weight: 700;
+}
+#title2{
+    text-align: center;
+    margin: 0px 0px 2.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6E6D7A;
+    line-height: 3ch;
+}
+#title2 a{
+    font-size: 1rem;
+    font-weight: 400;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    color: #0D0C22;
+    padding: 0rem 2rem;
+    margin: auto;
+    /* background-color: aqua; */
+    /* justify-content: space-between; */
+}
+.card{
+    height: 400px;
+    width: 350px;
+    margin: 30px;
+    background-color: #6E6D7A10;
+    /* opacity: 0.1; */
+    padding: 20px;
+    border-radius: 20px;
+    color: #0D0C22;
+    display: flex;
+    flex-wrap: wrap;
+}
+#username{
+    font: 14px;
+    font-weight: 700;
+    height: 20px;
+}
+#blog{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+    padding: 10px;
+}
+.card-buttons{
+    margin-top: 5px 0px 0px 15px;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+}
+.card-buttons button{
+    margin-right: 5px;
+}
+.see-full{
+    color: #FFFFFF;
+    padding: 10px;
+    background-color: #0D0C22;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.edit{
+    color: #FFFFFF;
+    padding: 10px;
+    background-color: #0D0C22;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+button a{
+    color: #FFFFFF;
+}

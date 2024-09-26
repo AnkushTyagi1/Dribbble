@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo">
+            
+            <button class="see-full"><a href="/posts/new">Post Blog</a></button>
+        </div>
+        <div id="ul">
+            <ul>
+                <li>Find designers</li>
+                <li>Inspiration</li>
+                <li>Jobs</li>
+                <li>Go Pro</li>
+            </ul>
+        </div>
+        <div id="right">
+            <input name="Search" type="text" placeholder="Search...">
+            <a href="">Log in</a>
+            <button>Sign up</button>
+        </div>
+    </div>
+    <div id="container">
+        <h1 id="title">Blog Homepage</h1>
+        <h2 id="title2">
+            Inspirational designs, illustrations, and graphic elements from the world's best designers. <br>
+            Want more inspiration? Browse our <a href="">Search results...</a>
+        </h2>
+        <div id="main">
+            <% for (let post of posts) { %>
+                <div class="card">
+                    <a href="" id="username">@<%=post.username %></a>
+                    <div id="blog">
+                        <%= post.content %>
+                    </div>
+                    <div class="card-buttons">
+                        <button class="see-full"><a href="/posts/<%=post.id%>">See Full Blog</a></button>
+                        <button class="edit">Edit Blog</button>
+                        <form method="post" action="/posts/<%=post.id%>?_method=DELETE"><button class="edit">Delete Blog</button></form>
+                    </div>
+                </div>   
+            <% } %> 
+        </div>        
+    </div>
+</body>
+</html>
